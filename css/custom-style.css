@@ -1,0 +1,35 @@
+.custom-icon2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.custom-icon2:hover {
+  background-color: #1ebba3;
+}
+
+.print {
+  cursor: pointer;
+}
+.btn-detail {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+button.btn-detail:hover {
+  font-size: medium;
+  color: chocolate;
+}
+
+.quote-container {
+
+  align-items: center;
+}
+.quote-container img {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%;
+  margin-left: 10px; /* Space between text and image */
+  border: solid;
+  border-color: antiquewhite;
+}
