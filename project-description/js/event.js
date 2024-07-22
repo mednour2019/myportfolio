@@ -36,13 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     project2: {
-      title: "Project 2 Title",
-      technologies: "HTML, CSS, React, Node.js",
+      title: "psychotherapy application",
+      technologies: " Angular ,HTML , CSS ,Kendo UI ,Type script ,java script ,jquery ,.net core web api ,Linq ,Entity framework (code first) ,sql server ,MVC, C#",
       description: "This is a detailed description of Project 2.",
       videoSrc: "video/pschoterapie.webm",
-      githubLink: "https://github.com/your-username/project2",
+      githubLink: "https://github.com/mednour2019/psychotherapie-applicationn.git",
     },
     // Add more projects as needed
+    project3: {
+      title: "psychotherapy application",
+      technologies: " Angular ,HTML , CSS ,Kendo UI ,Type script ,java script ,jquery ,.net core web api ,Linq ,Entity framework (code first) ,sql server ,MVC, C#",
+      description: "This is a detailed description of Project 2.",
+      videoSrc: "video/udemy-students.webm",
+      githubLink: "https://github.com/mednour2019/psychotherapie-applicationn.git",
+    },
   };
 
   if (projects[projectId]) {
