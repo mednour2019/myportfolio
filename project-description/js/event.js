@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Project 2 Title",
       technologies: "HTML, CSS, React, Node.js",
       description: "This is a detailed description of Project 2.",
-      videoSrc: "path/to/project2-demo-video.mp4",
+      videoSrc: "video/pschoterapie.webm",
       githubLink: "https://github.com/your-username/project2",
     },
     // Add more projects as needed
