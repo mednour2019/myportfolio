@@ -120,6 +120,13 @@ document.addEventListener("DOMContentLoaded", function () {
       videoSrc: "video/fakerfood.webm",
       githubLink: "https://github.com/mednour2019/psychotherapie-applicationn.git",
     },
+    project14: {
+      title: "psychotherapy application",
+      technologies: " Angular ,HTML , CSS ,Kendo UI ,Type script ,java script ,jquery ,.net core web api ,Linq ,Entity framework (code first) ,sql server ,MVC, C#",
+      description: "This is a detailed description of Project 2.",
+      videoSrc: "video/demofinal.webm",
+      githubLink: "https://github.com/mednour2019/psychotherapie-applicationn.git",
+    },
   };
 
   if (projects[projectId]) {
