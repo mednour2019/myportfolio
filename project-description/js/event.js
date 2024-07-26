@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technologies: "Angular ,Angular Material ,Type Script , HTML , CSS ,Bootstrap ,RxJS",
       description:
         "In this technical test project, I implemented a dynamic and responsive data table using Angular, designed to manage employee data retrieved from an external API. The project showcases advanced table functionalities, including pagination, sorting, filtering, and CRUD (Create, Read, Update, Delete) operations, all handled on the frontend.",
-      videoSrc: "video/AngularMod.webm",
+      videoSrc: "https://drive.google.com/file/d/1SVLCW8LEn6g3AzBg9pFenYHlbkttpMty/preview",
       githubLink: "https://github.com/mednour2019/AngularModuleTest.git",
       keyFeatures: [
         {
@@ -144,15 +144,16 @@ document.addEventListener("DOMContentLoaded", function () {
     document
       .getElementById("project-description")
       .querySelector("p").textContent = projects[projectId].description;
-    document.getElementById("project-video").querySelector("source").src =
-      projects[projectId].videoSrc;
-    document.getElementById("project-video").querySelector("video").load();
+
+   var iframe = document.getElementById('video-iframe');
+   iframe.src = projects[projectId].videoSrc;
+
     document.getElementById("github-link").querySelector("a").href =
       projects[projectId].githubLink;
     // Add key features to the list
-    const keyFeaturesList = document.getElementById("key-features-list");
+    var keyFeaturesList = document.getElementById("key-features-list");
     projects[projectId].keyFeatures.forEach((feature, index) => {
-      const listItem = document.createElement("li");
+      var listItem = document.createElement("li");
       listItem.innerHTML = `<strong>${index + 1}. ${feature.title}:</strong> ${
         feature.description
       }`;
