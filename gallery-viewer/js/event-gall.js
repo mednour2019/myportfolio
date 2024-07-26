@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { src: '../gallery-viewer/images/project21/3.TransfSentBySpacy.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/4.SplitSentce.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/5.wordsspacy.png', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/6.lemma.PNG', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/6.lemma.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/7.frequencisWord.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/8.scoreeachword.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/10.heightsenteces.png', description: 'Description for image 1' },
