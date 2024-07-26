@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { src: '../gallery-viewer/images/project23/8.jpg', description: 'Description for image 8' },
             { src: '../gallery-viewer/images/project23/9.jpg', description: 'Description for image 9' },
             { src: '../gallery-viewer/images/project23/10.png', description: 'Description for image 10' },
-            { src: '../gallery-viewer/images/project23/11.png', description: 'Description for image 11' },
+            { src: '../gallery-viewer/images/project23/11.PNG', description: 'Description for image 11' },
             { src: '../gallery-viewer/images/project23/12.png', description: 'Description for image 12' },
             { src: '../gallery-viewer/images/project23/44.jpg', description: 'Description for image 13' },
             { src: '../gallery-viewer/images/project23/111.jpg', description: 'Description for image 14' },
