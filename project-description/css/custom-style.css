@@ -66,24 +66,18 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 768px) {
-  .project-video h2 {
-    font-size: 28px;
-  }
-  
-  .video-container {
-    width: 80%;
-    margin: 0 auto;
+@media (orientation: portrait) {
+  .video-container iframe {
+    width: 100vw;
+    height: 56.25vw; /* 16:9 Aspect Ratio */
+    max-height: 100vh;
   }
 }
-
-@media (min-width: 1200px) {
-  .project-video h2 {
-    font-size: 32px;
-  }
-  
-  .video-container {
-    width: 80%;
+@media (orientation: landscape) {
+  .video-container iframe {
+    width: 177.78vh; /* 16:9 Aspect Ratio */
+    height: 100vh;
+    max-width: 100vw;
   }
 }
 
