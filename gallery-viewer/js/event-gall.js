@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
               { title: "Responsive Design", description: "Adapts to various screen sizes for optimal viewing." }
           ],
           images: [
-              { src: '../gallery-viewer/images/project17/TransformationClient.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/TransformationProduit.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/TransformationTemps.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/TransformationVentes.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/Ventes.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/Temps.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/Produit.PNG', description: 'Description for image 1' },
-              { src: '../gallery-viewer/images/project17/Client.PNG', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/TransformationClient.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/TransformationProduit.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/TransformationTemps.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/TransformationVentes.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/Ventes.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/Temps.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/Produit.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/Client.png', description: 'Description for image 1' },
               // Add more image objects as needed
           ]
       },
@@ -40,17 +40,47 @@ document.addEventListener('DOMContentLoaded', function() {
             { title: "Responsive Design", description: "Adapts to various screen sizes for optimal viewing." }
         ],
         images: [
-            { src: '../gallery-viewer/images/project21/1.origintext.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/2.cleaniing.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/3.TransfSentBySpacy.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/4.SplitSentce.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/5.wordsspacy.PNG', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/1.origintext.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/2.cleaniing.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/3.TransfSentBySpacy.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/4.SplitSentce.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/5.wordsspacy.png', description: 'Description for image 1' },
             { src: '../gallery-viewer/images/project21/6.lemma.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/7.frequencisWord.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/8.scoreeachword.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/10.heightsenteces.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/11.top5frequencies.PNG', description: 'Description for image 1' },
-            { src: '../gallery-viewer/images/project21/12FinalResult.PNG', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/7.frequencisWord.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/8.scoreeachword.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/10.heightsenteces.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/11.top5frequencies.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project21/12FinalResult.png', description: 'Description for image 1' },
+
+            // Add more image objects as needed
+        ]
+    },
+    project23: {
+        title: "Gallery Project",
+        technologies: "HTML, CSS, JavaScript, Bootstrap",
+        description: "This project showcases a dynamic image gallery with modal view functionality.",
+        githubLink: "https://github.com/your-username/gallery-project",
+        keyFeatures: [
+            { title: "Dynamic Loading", description: "Loads project details and images based on URL parameters." },
+            { title: "Modal Gallery", description: "Click on the main image to open a full-screen modal gallery." },
+            { title: "Responsive Design", description: "Adapts to various screen sizes for optimal viewing." }
+        ],
+        images: [
+            { src: '../gallery-viewer/images/project23/1.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/2.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/3.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/4.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/5.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/6.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/7.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/8.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/9.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/10.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/11.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/12.png', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/44.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/111.jpg', description: 'Description for image 1' },
+            { src: '../gallery-viewer/images/project23/5555.jpg', description: 'Description for image 1' },
 
             // Add more image objects as needed
         ]
