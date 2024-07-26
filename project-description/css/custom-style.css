@@ -14,9 +14,7 @@
 .project-description {
   margin-top: 20px;
 }
-.project-video {
-  margin-top: 20px;
-}
+
 .github-link {
   margin-top: 20px;
 }
@@ -35,3 +33,57 @@
 .key-features li {
   margin-bottom: 10px; /* Adjust the value as needed */
 }
+
+.project-video {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.project-video h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .project-video h2 {
+    font-size: 28px;
+  }
+  
+  .video-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-video h2 {
+    font-size: 32px;
+  }
+  
+  .video-container {
+    width: 70%;
+  }
+}
+
