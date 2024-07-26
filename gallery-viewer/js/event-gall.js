@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
               { title: "Responsive Design", description: "Adapts to various screen sizes for optimal viewing." }
           ],
           images: [
-              { src: '../gallery-viewer/images/project17/TransformationClient.png', description: 'Description for image 1' },
+              { src: '../gallery-viewer/images/project17/TransformationClient.PNG', description: 'Description for image 1' },
               { src: '../gallery-viewer/images/project17/TransformationProduit.png', description: 'Description for image 1' },
               { src: '../gallery-viewer/images/project17/TransformationTemps.png', description: 'Description for image 1' },
               { src: '../gallery-viewer/images/project17/TransformationVentes.png', description: 'Description for image 1' },
