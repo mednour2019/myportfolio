@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+
+  <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
@@ -12,10 +14,21 @@
     <link rel="stylesheet" href="../style.css" />
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="../js/custom-event.js"></script>
-    <link rel="stylesheet" href="../pdf-viewer/css/custom-style-pdf.css" />
-    <script src="../pdf-viewer/js/event-pdf.js"></script>
+    <link rel="stylesheet" href="../gallery-viewer/css/event-gall.css" />
+    <script src="../gallery-viewer/js/event-gall.js"></script>
   </head>
   <body>
+
+
+    <div id="gallery-modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img">
+      <div id="caption"></div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+
+
     <div class="container">
       <div class="project-header text-center">
         <h1 class="project-title" id="project-title">Project Title</h1>
@@ -37,8 +50,12 @@
         </ul>
       </div>
 
-      <div class="pdf-container">
-        <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+     
+      <div class="gallery-container">
+        <h1>Photo Gallery</h1>
+        <div id="mainPhoto">
+          <img id="displayedPhoto" src="../images/portfolio/1.jpg" alt="Main photo" class="gallery-img">
+        </div>
       </div>
 
       <div class="github-link text-center" id="github-link">

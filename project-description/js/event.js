@@ -170,6 +170,25 @@ document.addEventListener("DOMContentLoaded", function () {
       githubLink:
         "https://github.com/mednour2019/psychotherapie-applicationn.git",
     },
+    project18: {
+      title: "psychotherapy application",
+      technologies:
+        " Angular ,HTML , CSS ,Kendo UI ,Type script ,java script ,jquery ,.net core web api ,Linq ,Entity framework (code first) ,sql server ,MVC, C#",
+      description: "This is a detailed description of Project 2.",
+      videoSrc: "https://drive.google.com/file/d/1ZC4WDS97Db8-tqDj2z4CqKd_oW2lnazb/preview",
+      githubLink:
+        "https://github.com/mednour2019/psychotherapie-applicationn.git",
+    },
+    project19: {
+      title: "psychotherapy application",
+      technologies:
+        " Angular ,HTML , CSS ,Kendo UI ,Type script ,java script ,jquery ,.net core web api ,Linq ,Entity framework (code first) ,sql server ,MVC, C#",
+      description: "This is a detailed description of Project 2.",
+      videoSrc: "https://drive.google.com/file/d/1G7w0cDEu1P8qVCxj0WGar2lGBKJJv6l0/preview",
+      githubLink:
+        "https://github.com/mednour2019/psychotherapie-applicationn.git",
+    },
+    
   };
 
   if (projects[projectId]) {
@@ -207,3 +226,4 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("github-link").style.display = "none";
   }
 });
+
