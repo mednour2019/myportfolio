@@ -32,7 +32,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
         ]
       },
-      
+      courseblog2: {
+        title: " Learn MSBI step by step ",
+        technologies: " Sql server , Excel , SSIS , SSAS , Mdx , Olap cube , SSRS ,Pivot table",
+        description: "This course will teach you MSBI step by step, helping you integrate with BI family tools, enhance your knowledge in data warehousing, star schema, design data modeling, SSIS, OLAP cubes, SSRS, T-SQL, and more.",
+        pdfSrc: "", // Replace with your actual PDF file path
+        githubLink: "https://github.com/mednour2019/MSBI.git",
+        tableOfContents: [
+            { id: 1, name: "MSBI Fundamentals, Data Flow, Control Flow, ETL, Data Warehouse (SSIS)", evaluation: 5 },
+            { id: 1.1, name: "MSBI Installation (Upgrade)", evaluation: 4 },
+            { id: 2, name: "Conditional Split, Data Conversion and Error Handling (SSIS)", evaluation: 3 },
+            { id: 3, name: "For Loop, Variables, Parameters and Debugging (SSIS)", evaluation: 4 },
+            { id: 4, name: "Packaging and Deployment, File Component and Running SSIS Package", evaluation: 5 },
+            { id: 5, name: "Dimensions, Measures, Star Schema, Snowflake, Shared Connection Management", evaluation: 2 },
+            { id: 6, name: "SCD, Type 0, Type 1, OLEDB Command and Unicode Conversions (SSIS)", evaluation: 4 },
+            { id: 7, name: "Lookup, Data Conversion Optimization and Updating SSIS Package (SSIS)", evaluation: 3 },
+            { id: 8, name: "Sort, Merge and Merge Joins (SSIS)", evaluation: 2 },
+            { id: 9, name: "Creating SSAS Cube (SSAS)", evaluation: 5 },
+            { id: 10, name: "SSAS Time Series and Excel Display (SSAS)", evaluation: 3 },
+            { id: 11, name: "Transactions and CheckPoints in SSIS (SSIS)", evaluation: 4 },
+            { id: 12, name: "Simple SSRS Report & Implementing Matrix, Tabular, Parameters, Sorting", evaluation: 2 },
+            { id: 13, name: "Using Data Profiling Task to Check Data Quality (SSIS)", evaluation: 3 },
+            { id: 14, name: "Hierarchical Dimensions (SSAS)", evaluation: 4 },
+            { id: 15, name: "Web Services and XML Task (SSIS)", evaluation: 2 },
+            { id: 16, name: "DrillDown and Subreports (SSRS)", evaluation: 3 },
+            { id: 17, name: "SSAS KPI (Key Performance Indicators) (SSAS)", evaluation: 4 },
+            { id: 18, name: "Pivot, UnPivot and Aggregation (SSIS)", evaluation: 5 },
+            { id: 19, name: "SSAS Calculation (SSAS)", evaluation: 3 },
+            { id: 20, name: "SQL Execute Task (SSIS)", evaluation: 2 },
+            { id: 21, name: "Reference and Many-to-Many Relationship (SSAS)", evaluation: 4 },
+            { id: 22, name: "Script Task and Send Mail Task (SSIS)", evaluation: 3 },
+            { id: 23, name: "Script Component (SSIS)", evaluation: 2 },
+            { id: 24, name: "Bar Chart, Gauge and Indicators (SSRS)", evaluation: 5 },
+            { id: 25, name: "Partitions in SSAS (SSAS)", evaluation: 3 },
+            { id: 26, name: "CDC (Changed Data Capture) in SSIS (SSIS)", evaluation: 4 },
+            { id: 27, name: "Additive, Semiadditive and Non-additive Measures in SSAS (SSAS)", evaluation: 2 },
+            { id: 28, name: "Buffer Size Tuning (SSIS)", evaluation: 3 },
+            { id: 29, name: "How to Implement Multithreading in SSIS? (SSIS)", evaluation: 4 },
+            { id: 30, name: "Processing SSAS Cube in Background (SSAS)", evaluation: 5 },
+            { id: 31, name: "Explain Asynchronous, Synchronous, Full, Semi & Non-blocking Component", evaluation: 2 },
+            { id: 32, name: "SSRS Architecture and Deployment (SSRS)", evaluation: 3 },
+            { id: 33, name: "DQS (Data Quality Services) (SSIS)", evaluation: 4 },
+            { id: 34, name: "Explain Tabular Model and Power Pivot (SSAS)", evaluation: 2 },
+            { id: 35, name: "MDX (Multidimensional Expressions) Queries (SSAS)", evaluation: 5 },
+            { id: 36, name: "Data Mining (Fundamentals and Time Series Algorithm) (SSAS)", evaluation: 3 },
+            { id: 37, name: "Page Split and Performance Issues with SSIS (SSIS)", evaluation: 2 },
+            { id: 38, name: "Aggregations in SSAS (SSAS)", evaluation: 4 },
+            { id: 39, name: "ROLAP, MOLAP and HOLAP (SSAS)", evaluation: 3 },
+            { id: 40, name: "Instrumentation using Data Taps (SSIS)", evaluation: 2 },
+            { id: 41, name: "Lookup Caching Modes and Cache Transform (SSAS)", evaluation: 4 },
+            { id: 42, name: "Perspectives & Translations (SSAS)", evaluation: 3 },
+            { id: 43, name: "Tabular Training 1: Installation, Xvelocity, Vertipaq, DAX, Creating", evaluation: 5 }
+        ]
+      },
     };
 
     function generateStars(rating) {
