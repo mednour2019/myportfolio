@@ -1,0 +1,68 @@
+/* General Styles */
+.project-navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  z-index: 1000; /* Ensure it stays on top of other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #0056b3;
+}
+
+.github-btn {
+  background-color: #333;
+}
+
+.github-btn:hover {
+  background-color: #555;
+}
+
+/* Media Queries */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
