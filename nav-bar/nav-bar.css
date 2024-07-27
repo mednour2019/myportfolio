@@ -3,7 +3,7 @@
     background-color: rgb(95,99,104);
     color: #ecf0f1;
     padding: 1rem 0;
-    position: sticky;
+   /* position: sticky;*/
     top: 0;
     z-index: 1000;
   }
