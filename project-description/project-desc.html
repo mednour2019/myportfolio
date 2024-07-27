@@ -14,16 +14,34 @@
     <script src="../js/custom-event.js"></script>
     <link rel="stylesheet" href="../project-description/css/custom-style.css" />
     <script src="../project-description/js/event.js"></script>
+    <link rel="stylesheet" href="../nav-bar/nav-bar.css" />
+
   </head>
   <body>
-    <div class="container">
-      <div class="project-header text-center">
-        <h1 class="project-title" id="project-title">Project Title</h1>
-        <p class="project-technologies" id="project-technologies">
-          Technologies: HTML, CSS, JavaScript, Bootstrap
-        </p>
+    <nav class="project-navbar">
+      <div class="navbar-container">
+        <div class="navbar-left">
+          <h1 class="project-title" id="project-title">Project Title</h1>
+          <p class="project-technologies" id="project-technologies">
+            Technologies: HTML, CSS, JavaScript, Bootstrap
+          </p>
+        </div>
+        <div class="navbar-right">
+          <a
+            href="https://github.com/your-username/your-project"
+            class="nav-btn github-btn"
+            id="github-link"
+            target="_blank"
+          >
+            <i class="fa fa-github"></i> Repository
+          </a>
+          <a href="../index.html#work" class="nav-btn back-btn">
+            <i class="fa fa-arrow-left"></i> Back to Portfolio
+          </a>
+        </div>
       </div>
-
+    </nav>
+    <div class="container">
       <div class="project-description" id="project-description">
         <h2>Description</h2>
         <p>
@@ -40,31 +58,10 @@
       <div class="project-video" id="project-video">
         <h2>Demo Video</h2>
         <div class="video-container">
-
-        <iframe
-        id="video-iframe"
-          src=""
-          frameborder="0"
-          allowfullscreen
-        >
-          Your browser does not support the video tag.
-        </iframe>
-      </div>
-    </div>
-
-      <div class="github-link text-center" id="github-link">
-        <h2>GitHub Repository</h2>
-        <a
-          href="https://github.com/your-username/your-project"
-          class="btn btn-primary"
-          target="_blank"
-          >View on GitHub</a
-        >
-      </div>
-      <div class="back-to-index text-center">
-        <a href="../index.html#work" class="btn btn-secondary"
-          >Back to Portfolio</a
-        >
+          <iframe id="video-iframe" src="" frameborder="0" allowfullscreen>
+            Your browser does not support the video tag.
+          </iframe>
+        </div>
       </div>
     </div>
   </body>

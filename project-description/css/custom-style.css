@@ -1,39 +1,56 @@
 
-.project-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-bottom: 1px solid #dee2e6;
-}
-.project-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.project-technologies {
-  margin-top: 10px;
-}
 .project-description {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
+  padding: 1rem;
 }
-
-.github-link {
-  margin-top: 20px;
+.project-description p {
+  margin-bottom: 1.25rem; /* Space below the description paragraph */
 }
-.back-to-index {
-  margin-top: 20px;
+.project-description h3 {
+  margin-top: 1.5rem; /* Space above the Key Features heading */
 }
-.home-btn{
-  border: none;
-  border-radius: 8px;
-  outline: none;
-  text-decoration: none;
-
+.key-features {
+  list-style-type: none; /* Optional: Remove default list styling */
+  padding: 0; /* Optional: Remove default padding */
 }
-
-
 .key-features li {
-  margin-bottom: 10px; /* Adjust the value as needed */
+  margin-bottom: 0.625rem; /* Optional: Add space between list items */
 }
 
+/* Media queries for different screen sizes */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project-description p {
+    margin-bottom: 1rem;
+  }
+
+  .project-description h3 {
+    margin-top: 1.25rem;
+  }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .project-description p {
+    margin-bottom: 1.25rem;
+  }
+
+  .project-description h3 {
+    margin-top: 1.5rem;
+  }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .project-description p {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-description h3 {
+    margin-top: 2rem;
+  }
+}
 .project-video {
   width: 100%;
   max-width: 1200px;
@@ -87,6 +104,31 @@
     width: 80%;
   }
 }
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+/* Existing styles */
+.project-description, .project-video {
+  margin-top: 2rem;
+}
+
+.key-features li {
+  margin-bottom: 10px;
+}
+
+/* ... (keep your existing video container styles) ... */
+
 
 
 
