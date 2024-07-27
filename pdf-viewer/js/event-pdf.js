@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("project-title").textContent = project.title;
         document.getElementById("project-technologies").textContent = "Technologies: " + project.technologies;
         document.getElementById("project-description").querySelector("p").textContent = project.description;
-        document.getElementById("github-link").querySelector("a").href = project.githubLink;
         document.getElementById("pdf-viewer").src = project.pdfSrc;
+        document.getElementById("github-link").href = project.githubLink;
 
         const keyFeaturesList = document.getElementById("key-features-list");
         keyFeaturesList.innerHTML = ""; // Clear existing features

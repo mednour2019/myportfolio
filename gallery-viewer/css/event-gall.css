@@ -1,32 +1,22 @@
-.project-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-bottom: 1px solid #dee2e6;
-}
-.project-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.project-technologies {
-  margin-top: 10px;
-}
 .project-description {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
+  padding: 1rem;
+}
+.project-description p {
+  margin-bottom: 1.25rem; /* Space below the description paragraph */
+}
+.project-description h3 {
+  margin-top: 1.5rem; /* Space above the Key Features heading */
+}
+.key-features {
+  list-style-type: none; /* Optional: Remove default list styling */
+  padding: 0; /* Optional: Remove default padding */
+}
+.key-features li {
+  margin-bottom: 0.625rem; /* Optional: Add space between list items */
 }
 
-.github-link {
-  margin-top: 20px;
-}
-.back-to-index {
-  margin-top: 20px;
-}
-.home-btn{
-  border: none;
-  border-radius: 8px;
-  outline: none;
-  text-decoration: none;
 
-}
 
 
 .key-features li {
