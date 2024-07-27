@@ -12,3 +12,6 @@ function openGallery(projectId) {
   window.location.href = 'gallery-viewer/gallery-project-description.html?project=' + projectId;
 
 }
+function openBlogCourse(projectId) {
+  window.location.href = 'course-blog/course-blog.html?project=' + projectId;
+}

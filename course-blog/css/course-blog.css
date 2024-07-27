@@ -1,0 +1,68 @@
+/* Add custom styles here */
+.toc-container {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+
+  .toc-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .toc-table th,
+  .toc-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .toc-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .toc-table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .toc-table tr.current {
+    background-color: #0073e6;
+    color: white;
+  }
+
+  .pdf-container {
+    margin-top: 20px;
+  }
+
+  .stars {
+    color: #ffd700;
+  }
+
+  @media (max-width: 768px) {
+    .toc-table th,
+    .toc-table td {
+      padding: 4px;
+    }
+  }
+
+
+
+  /*ABOUT PDF*/
+  .pdf-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* Adjust as needed */
+  }
+  #pdf-viewer {
+    width: 100%;
+    height: 100%;
+    max-width: 800px; /* Adjust as needed */
+    border: 1px solid #dee2e6;
+  }
+  @media (max-width: 768px) {
+    .pdf-container {
+      height: 400px; /* Smaller height for mobile devices */
+    }
+  }
