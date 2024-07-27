@@ -1,68 +1,104 @@
-/* General Styles */
+/* Navbar styles */
 .project-navbar {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background-color: #f8f9fa;
-  z-index: 1000; /* Ensure it stays on top of other content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-left {
-  flex: 1;
-}
-
-.navbar-right {
-  display: flex;
-  gap: 10px;
-}
-
-.nav-btn {
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #007bff;
-  transition: background-color 0.3s ease;
-}
-
-.nav-btn:hover {
-  background-color: #0056b3;
-}
-
-.github-btn {
-  background-color: #333;
-}
-
-.github-btn:hover {
-  background-color: #555;
-}
-
-/* Media Queries */
-
-/* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+    background-color: rgb(95,99,104);
+    color: #ecf0f1;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
   .navbar-container {
-    flex-direction: column;
-    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
-
+  
+  .navbar-left {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-technologies {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
   .navbar-right {
-    flex-direction: column;
-    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
   }
-
+  
   .nav-btn {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
   }
-}
+  
+  .github-btn {
+    background-color: #333;
+  }
+  
+  .back-btn {
+    background-color: #3498db;
+  }
+  
+  .nav-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+/* Responsive design */
+@media (min-width: 768px) {
+    .project-navbar {
+      padding: 1.5rem 0;
+    }
+  
+    .navbar-container {
+      flex-wrap: nowrap;
+    }
+  
+    .navbar-left {
+      flex: 2;
+    }
+  
+    .navbar-right {
+      margin-top: 0;
+    }
+  
+    .project-title {
+      font-size: 2rem;
+    }
+  
+    .project-technologies {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .project-title {
+      font-size: 2.5rem;
+    }
+  
+    .project-technologies {
+      font-size: 1.1rem;
+    }
+  }  
