@@ -1,0 +1,81 @@
+
+.project-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  .project-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .project-technologies {
+    margin-top: 10px;
+  }
+  .project-description {
+    /*margin-top: 20px;*/
+    padding: 1rem;
+  }
+  .project-description p {
+    margin-bottom: 1.25rem; /* Space below the description paragraph */
+  }
+  .project-description h3 {
+    margin-top: 1.5rem; /* Space above the Key Features heading */
+  }
+  .key-features {
+    list-style-type: none; /* Optional: Remove default list styling */
+    padding: 0; /* Optional: Remove default padding */
+  }
+  .key-features li {
+    margin-bottom: 0.625rem; /* Optional: Add space between list items */
+  }
+  
+  /* Media queries for different screen sizes */
+  
+  /* Small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .project-description p {
+      margin-bottom: 1rem;
+    }
+  
+    .project-description h3 {
+      margin-top: 1.25rem;
+    }
+  }
+  .pdf-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* Adjust as needed */
+  }
+  #pdf-viewer {
+    width: 100%;
+    height: 100%;
+    max-width: 800px; /* Adjust as needed */
+    border: 1px solid #dee2e6;
+  }
+
+  .key-features li {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .pdf-container {
+      height: 400px; /* Smaller height for mobile devices */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
