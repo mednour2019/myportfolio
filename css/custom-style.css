@@ -103,3 +103,15 @@ button.btn-detail:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* Hide the row on desktop devices */
+.mobile-only {
+  display: none;
+}
+
+/* Show the row on mobile devices */
+@media only screen and (max-width: 768px) {
+  .mobile-only {
+    display: flex;
+  }
+}
