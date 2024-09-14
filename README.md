@@ -35,6 +35,6 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-If you have any questions or would like to get in touch, please reach out via email at [your-email@example.com] or through the contact form on the website.
+If you have any questions or would like to get in touch, please reach out via email at [mednour.khl@gmail.com] or through the contact form on the website.
 
 
