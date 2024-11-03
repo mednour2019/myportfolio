@@ -59,15 +59,11 @@
   margin-left: -10px;
 }
 
-/* Improved company logo image styling */
 .timeline-img {
-  width: 100%;
-  height: auto;
-  max-width: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 8px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
+  object-fit: cover;
 }
 
 .profile-section {
@@ -117,25 +113,19 @@
     left: 30px;
   }
 
-  /* Adjusted company logo container */
+  .timeline-img {
+    width: 40px;
+    height: 40px;
+  }
+
   .col-3 {
     flex: 0 0 auto;
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 20%;
   }
 
   .col-9 {
     flex: 0 0 auto;
-    width: 75%;
-  }
-
-  /* Responsive company logo */
-  .timeline-img {
-    max-width: 60px;
-    width: 100%;
-    height: auto;
+    width: 80%;
   }
 
   .profile-img {
@@ -178,18 +168,9 @@
     margin-left: 40px !important;
   }
 
-  /* Further adjusted company logo for smallest screens */
   .timeline-img {
-    max-width: 45px;
-  }
-
-  /* Adjusted columns for better spacing */
-  .col-3 {
-    width: 20%;
-  }
-
-  .col-9 {
-    width: 80%;
+    width: 35px;
+    height: 35px;
   }
 
   .state-job {
@@ -206,24 +187,5 @@
 
   li {
     margin-bottom: 8px;
-  }
-}
-
-/* Extra small devices */
-@media (max-width: 375px) {
-  .timeline-img {
-    max-width: 40px;
-  }
-
-  .col-3 {
-    width: 15%;
-  }
-
-  .col-9 {
-    width: 85%;
-  }
-
-  .timeline-content {
-    padding: 10px;
   }
 }
