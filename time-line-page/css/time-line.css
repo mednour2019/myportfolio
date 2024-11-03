@@ -1,4 +1,3 @@
-/* Timeline custom styles */
 .timeline {
   position: relative;
   padding: 20px 0;
@@ -82,22 +81,7 @@
   border: 3px solid #3498db;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .timeline::before {
-      left: 40px;
-  }
-  
-  .timeline-content {
-      width: calc(100% - 80px);
-      margin-left: 80px !important;
-  }
-  
-  .timeline-dot {
-      left: 40px;
-  }
-}
-.state-job{
+.state-job {
   background-color: burlywood;
   display: inline-block;
   border-radius: 5px;
@@ -105,9 +89,103 @@
   animation: pulse 2s infinite;
   border-top-left-radius: 5px;
   font-size: small;
+  padding: 2px 5px;
 }
+
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.1); }
   100% { transform: scale(1); }
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-content {
+    width: calc(100% - 60px);
+    margin-left: 60px !important;
+  }
+  
+  .timeline-dot {
+    left: 30px;
+  }
+
+  .timeline-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .col-3 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+
+  .col-9 {
+    flex: 0 0 auto;
+    width: 80%;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .timeline-title {
+    font-size: 1.1em;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  li {
+    font-size: 0.9em;
+  }
+}
+
+/* Additional mobile optimizations */
+@media (max-width: 576px) {
+  .timeline-content {
+    padding: 15px;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-dot {
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    margin-left: -7.5px;
+  }
+
+  .timeline-content {
+    width: calc(100% - 40px);
+    margin-left: 40px !important;
+  }
+
+  .timeline-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .state-job {
+    font-size: x-small;
+  }
+
+  br {
+    display: none;
+  }
+
+  ul {
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
 }
