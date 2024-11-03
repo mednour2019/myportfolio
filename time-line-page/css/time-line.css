@@ -63,8 +63,31 @@
   width: 50px;
   height: 50px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain; /* Changed from cover to contain for better logo display */
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .timeline-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline-img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .timeline-img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
 .profile-section {
   text-align: center;
