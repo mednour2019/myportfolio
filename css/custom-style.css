@@ -115,3 +115,35 @@ button.btn-detail:hover {
     display: flex;
   }
 }
+.new-badge{
+  background-color: #1ebba3;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: grab;
+  animation: pulse 2s infinite;
+  border-top-left-radius: 5px;
+  font-size: small;
+}
+.recent-badge{
+  background-color: cornflowerblue;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: grab;
+  animation: pulse 2s infinite;
+  border-top-left-radius: 5px;
+  font-size: small;
+}
+.old-badge{
+  background-color: burlywood;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: grab;
+  animation: pulse 2s infinite;
+  border-top-left-radius: 5px;
+  font-size: small;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}

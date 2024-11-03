@@ -16,4 +16,7 @@ function openBlogCourse(projectId) {
   window.location.href = 'course-blog/course-blog.html?project=' + projectId;
 }
 
+function openTimeLinePage(projectId) {
+  window.location.href = 'time-line-page/time-line.html?project=' + projectId;
+}
 
