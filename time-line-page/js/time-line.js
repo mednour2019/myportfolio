@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
   });
 
-  function openTimeLinePage(projectId) {
-    window.location.href = 'time-line-page/time-line.html?project=' + projectId;
-  }
+ 
   
   
   
