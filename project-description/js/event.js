@@ -614,6 +614,34 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       ], // Ensure keyFeatures exists, even if empty
     },
+    project24: {
+      title: "SudokuMaster: Interactive Solver with Smart Validation and Progress Tracking",
+      technologies:
+        ".NET Windows Forms , C# , MaterialSkin Manager Framework",
+      description: "This Sudoku game serves as a technical test to demonstrate and enhance skills in desktop application development using .NET Windows Forms and C#. It focuses on component interaction, input validation, algorithm implementation, and data persistence.",
+      videoSrc:
+        "https://drive.google.com/file/d/1q6aVVlzzfTOHOE0-mghNd4WFTSHZPrbn/preview",
+      githubLink:
+        "https://github.com/mednour2019/Suduko-Game.git",
+      keyFeatures: [
+        {
+          "title": "SudokuMaster",
+          "description": "suggests expertise and mastery, appealing to Sudoku enthusiasts."
+        },
+        {
+          "title": "Interactive Solver",
+          "description": "highlights the game's core functionality and user engagement."
+        },
+        {
+          "title": "Smart Validation",
+          "description": "refers to the real-time input control and error prevention."
+        },
+        {
+          "title": "Progress Tracking",
+          "description": "Emphasizes the save/load feature, which allows users to track and continue their games."
+        }
+      ], // Ensure keyFeatures exists, even if empty
+    },
     // Add more projects as needed
   };
 
