@@ -147,3 +147,31 @@ button.btn-detail:hover {
   50% { transform: scale(1.1); }
   100% { transform: scale(1); }
 }
+.timeline{
+  display: ine-block;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: black;
+  transition: all 0.3s eas;
+  background-color: aliceblue;
+  font-weight: 600;
+
+}
+.new-badge-custom{
+  background-color: lightgoldenrodyellow;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: grab;
+  animation: pulse 2s infinite;
+  border-top-left-radius: 5px;
+  font-size: small;
+  font-weight: 700;
+}
+.timeline :hover{
+background-color: #1ebba3
+}
+.und{
+  border-radius: 10px;
+
+}
