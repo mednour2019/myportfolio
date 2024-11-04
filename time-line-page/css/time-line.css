@@ -205,5 +205,14 @@
     margin-bottom: 8px;
   }
 }
-
+.btn-cred{
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: grab;
+    font-size: medium;
+    font-weight: 400;
+}
 
