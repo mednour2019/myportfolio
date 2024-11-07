@@ -175,3 +175,19 @@ background-color: #1ebba3
   border-radius: 10px;
 
 }
+
+.arrow-icon {
+  font-size: 20px;
+  margin-left: 8px;
+  animation: bounceRight 1s infinite;
+  color: darkred;
+  font-size: x-large;
+}
+@keyframes bounceRight {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
